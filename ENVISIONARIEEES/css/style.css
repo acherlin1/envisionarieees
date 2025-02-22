@@ -28,6 +28,11 @@
     position: sticky;
 }
 
+.body{
+    text-align: center;
+    padding: 20px 50px
+}
+
 nav {
     background-color: #59536D;
     display: flex;
@@ -35,11 +40,27 @@ nav {
     align-items: center;
 }
 
+.headers{
+    display:block;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
 img{
     display:block;
     margin-top: 30px;
     margin-bottom: 100px;
     justify-items: center;
-    width: 100%
-    
+    width: 100%;    
+}
+
+p{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
 }

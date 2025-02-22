@@ -1,4 +1,4 @@
-const hover = document.getElementById('myClick');
+const hover = document.getElementById('myText');
 
     hover.addEventListener('mouseover', function() {
     this.style.backgroundColor = 'black';
