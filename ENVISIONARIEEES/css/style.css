@@ -5,12 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     justify-content: center;
+    text-decoration: none;
 }
 
 .head {
     .click{
         background-color: #59536D;
         border-color: white;
+        transition: border-radius 0.3s ease;
         color:white;
         display:flex;
         padding: 10px 5px; 
@@ -50,7 +52,7 @@ nav {
 
 }
 
-img{
+.titleimg{
     display:block;
     margin-top: 30px;
     margin-bottom: 100px;
@@ -64,3 +66,27 @@ p{
     width: 80%;
     margin-bottom: 50px;
 }
+
+.apply{
+    .extLink{
+        width: 10%;
+        display: flex;
+        margin: auto;
+        margin-left: 12px;
+        margin-right: 10px;
+        image-rendering:pixelated;
+    }
+    background-color: #7A72D4;
+    border-width: 3px;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    font-size: 3vw; /* Responsive text */
+    width: 30%;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px; 
+    top: 0;
+    border-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
