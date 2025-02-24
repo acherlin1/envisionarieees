@@ -19,6 +19,16 @@
         font-size: clamp(12px, 1.3vw, 10px);
         width: 10vw;
     }
+    .click2{
+        background-color: #59536D;
+        border-color: white;
+        color:white;
+        display: flex;
+        padding: 11px 1vw; 
+        align-items: right;
+        font-size: clamp(10px, 1.3vw, 10px);
+        width: 10vw;
+    }
     background-color: #59536D; 
     font-size: 1.2vw;
     color: white;
