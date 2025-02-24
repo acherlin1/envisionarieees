@@ -12,10 +12,9 @@
     .click{
         background-color: #59536D;
         border-color: white;
-        transition: border-radius 0.3s ease;
         color:white;
-        display:flex;
-        padding: 10px 5px; 
+        display: flex;
+        padding: 10px 1vw; 
         align-items: right;
         font-size: 1vw;
         width: 10vw;
@@ -36,6 +35,13 @@
     text-align: center;
     padding: 20px 50px;
     font-size: 1.5vw;
+}
+
+p{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -63,12 +69,6 @@ nav {
     width: 100%;    
 }
 
-p{
-    display: block;
-    margin: auto;
-    width: 80%;
-    margin-bottom: 50px;
-}
 
 .apply{
     .extLink{
