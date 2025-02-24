@@ -16,7 +16,7 @@
         display: flex;
         padding: 10px 1vw; 
         align-items: right;
-        font-size: 1vw;
+        font-size: clamp(9px, 1.3vw, 10px);
         width: 10vw;
     }
     background-color: #59536D; 
