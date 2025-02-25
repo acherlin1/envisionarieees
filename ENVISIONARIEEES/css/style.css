@@ -107,7 +107,7 @@ nav {
     top: 0;
     border-color: rgb(255, 255, 255);
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .foot{
@@ -125,7 +125,7 @@ nav {
     width: 2.5vw;
     display: flex;
     background-color: #59536D;
-    padding: 5px 5px;
+    padding: 20px 5px;
     justify-content: space-between;
 }
 
