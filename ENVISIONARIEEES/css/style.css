@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .head {
     .click{
         background-color: #59536D;
@@ -42,6 +46,7 @@
 }
 
 .body{
+    display: block;
     text-align: center;
     padding: 20px 50px;
     font-size: 1.5vw;
@@ -49,6 +54,7 @@
 
 p{
     display: block;
+    text-align: center;
     margin: auto;
     width: 80%;
     margin-bottom: 50px;
@@ -113,5 +119,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.ftimg{
+    width: 2.5vw;
+    display: flex;
+    background-color: #59536D;
+    padding: 5px 5px;
+    justify-content: space-between;
 }
 

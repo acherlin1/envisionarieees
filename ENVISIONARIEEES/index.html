@@ -3,58 +3,72 @@
     <script src = "effects.js"></script>
 
     <header class = "head" style = color:white>
-        <a class = "head">Envisionaries x IEEE Designathon @ UCSD</a>
+        <a href = "#title" class = "head">Envisionaries x IEEE Designathon @ UCSD</a>
         <nav id = "myClick">
-            <a href=""><button type="button" class="click">About</button></a>
-            <a href=""><button type="button" class="click">Prompt</button></a>
-            <a href=""><button type="button" class="small">Eligibility</button></a>
-            <a href=""><button type="button" class="small">Announcements</button></a>
-            <a href=""><button type="button" class="small">Submitting</button></a>
-            <a href=""><button type="button" class="click">F.A.Q</button></a>
-            <a href="" target="_blank"><button type="button" class="click">Apply</button></a>
+            <a href="#about"><button type="button" class="click">About</button></a>
+            <a href="#prompt"><button type="button" class="click">Prompt</button></a>
+            <a href="#eligibility"><button type="button" class="small">Eligibility</button></a>
+            <a href="#announcements"><button type="button" class="small">Announcements</button></a>
+            <a href="#submitting"><button type="button" class="small">Submitting</button></a>
+            <a href="#faq"><button type="button" class="click">F.A.Q</button></a>
+            <a href="#apply" ><button type="button" class="click">Apply</button></a>
             
     
         </nav>
     </header>
 
     <body>
-        <div class = "title">
+        <div id = "title" class = "title">
             <img class = "titleimg" src="images/TitleMain.png" alt = "TitleCard" width = 95%/>
-        </div>
-
+        </div>  
         <div class = "body">
-            <img class = "headers" src="images/about.png" alt="About"/>
-            <p>
-                The Visionarieees Design Competition is a quarter-long, project-based competition. 
-                It aims to motivate college students to collaborate in interdisciplinary teams toward a broad project prompt. 
-                To support this, they will be given access to a wide range of arts and engineering materials (through the Envision Maker Studio)
-                and tools, workshops, and mentors. 
-                During the 8 weeks that the competition is active, teams of 4-6 will work together to create a final product and video submission that align with the chosen prompt.
-            </p>
-            <img class = "headers" src="images/prompt.png" alt="About"/>
-            <p>
+            <section id = "about">
+                <img class = "headers" src="images/about.png" alt="About"/>
+                <p id = "prompt">
+                    The Visionarieees Design Competition is a quarter-long, project-based competition. 
+                    It aims to motivate college students to collaborate in interdisciplinary teams toward a broad project prompt. 
+                    To support this, they will be given access to a wide range of arts and engineering materials (through the Envision Maker Studio)
+                    and tools, workshops, and mentors. 
+                    During the 8 weeks that the competition is active, teams of 4-6 will work together to create a final product and video submission that align with the chosen prompt.
+                </p>
+            </section>
+            
+            <img class = "headers" src="images/prompt.png"/>
+            <p id = "eligibility">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <img class = "headers" src="images/submit.png" alt="About"/>
+            <img class = "headers" src="images/eligibility.png"/>
+            <p id = "announcements">
+                All UCSD undergraduate students are eligible (regardless of major, minor, part-time status, transfer status)
+            </p>
+            <img class = "headers" src="images/announcements.png"/>
+            <p id = "submitting">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <img class = "headers" src="images/submit.png"/>
+            <p id = "faq">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <img class = "headers" src="images/faq.png"/>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
 
-        <div class = "applybut">
+        <div id = "apply" class = "applybut">
             
-            <a href=""><button class = "apply" type="button"><img class = "extLink" src="images/ExternalLink.png"/>Apply Now!</button></a>
+            <a href="" target="_blank"><button class = "apply" type="button"><img class = "extLink" src="images/ExternalLink.png"/>Apply Now!</button></a>
         </div>
 
 
 
     </body>
 
-    <footer>
-        <a class = "foot">Website made by Alyssa @ Envisionaries</a>
+    <footer>  
         <nav>
-            <a href=""><img class = "extLink" src="images/Instagram.png"/></a>
-            <a href=""><img class = "extLink" src="images/Email.png"/></a>
+            <a class = "foot">Website made by Alyssa @ Envisionaries</a>
+            <a href=""><img class = "ftimg" src="images/Instagram.png"/></a>
+            <a href=""><img class = "ftimg" src="images/Email.png"/></a>
         </nav>
     </footer>
 </html>
