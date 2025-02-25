@@ -108,13 +108,30 @@ nav {
     border-color: rgb(255, 255, 255);
     align-items: center;
     margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.questions{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.answers{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 40px;
 }
 
 .foot{
     background-color: #59536D; 
     font-size: 1.2vw;
     color: white;
-    padding: 25px 30px; 
+    padding: 10px 30px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,7 +142,7 @@ nav {
     width: 2.5vw;
     display: flex;
     background-color: #59536D;
-    padding: 20px 5px;
+    padding: 10px 3px;
     justify-content: space-between;
 }
 
