@@ -15,6 +15,8 @@ html {
 .head {
     .click{
         background-color: #59536D;
+        border-top:#59536D;
+        border-bottom: #59536D;
         border-color: white;
         color:white;
         display: flex;
@@ -25,12 +27,14 @@ html {
     }
     .small{
         background-color: #59536D;
+        border-top:#59536D;
+        border-bottom: #59536D;
         border-color: white;
         color:white;
         display: flex;
         padding: 11px 1vw; 
         align-items: right;
-        font-size: clamp(10px, 1.3vw, 10px);
+        font-size: clamp(10px, 1.3vw, 11px);
         width: 10vw;
     }
     background-color: #59536D; 
@@ -49,7 +53,7 @@ html {
     display: block;
     text-align: center;
     padding: 20px 50px;
-    font-size: 1.5vw;
+    font-size: clamp(15px, 1.3vw, 30px);
 }
 
 p{
