@@ -53,7 +53,7 @@ html {
     display: block;
     text-align: center;
     padding: 20px 50px;
-    font-size: clamp(15px, 1.3vw, 30px);
+    font-size: max(15px, 1.3vw);
 }
 
 p{
