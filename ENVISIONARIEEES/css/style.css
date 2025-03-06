@@ -96,29 +96,44 @@ nav {
 }
 
 
-.apply{
-    .extLink{
-        width: 12%;
-        display: flex;
-        margin: auto;
-        margin-left: 12px;
-        margin-right: 10px;
-        image-rendering:pixelated;
-    }
-    background-color: #7A72D4;
+.apply {
+    background-color: #7A72D4;   /* Default button color */
     border-width: 3px;
     border-radius: 20px;
     display: flex;
     margin: auto;
-    font-size: 3vw; /* Responsive text */
+    font-size: 3vw;  /* Responsive text */
     width: 30%;
     color: rgb(255, 255, 255);
-    padding: 15px 20px; 
+    padding: 15px 20px;
     top: 0;
     border-color: rgb(255, 255, 255);
     align-items: center;
     margin-bottom: 120px;
     margin-top: 70px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Styling for the image inside the button */
+.apply .extLink {
+    width: 12%;
+    display: flex;
+    margin: auto;
+    margin-left: 12px;
+    margin-right: 10px;
+    image-rendering: pixelated;
+}
+
+/* Hover effect for the button */
+.apply.hover-effect {
+    background-color: rgb(255, 255, 132) !important;  /* Hover background color */
+}
+
+.apply.hover-effect .extLink {
+    background-color: rgb(255, 255, 132) !important;
+    opacity: 0.0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .questions{
