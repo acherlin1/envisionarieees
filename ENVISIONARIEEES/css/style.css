@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(226, 216, 203);
+    background-color: #FFF4D5;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -13,9 +13,9 @@ html {
   }
 
 .head {
-    background-color: #59536D; 
-    border-top-color: white;
-    border-bottom-color: white;
+    background-color: #443B63; 
+    border-top-color: #443B63;
+    border-bottom-color: #443B63;
     border-width: 3px;
     font-size: 1.2vw;
     color: white;
@@ -30,9 +30,9 @@ html {
 
 .head .click{
     cursor: pointer;
-    background-color: #59536D;
-    border-top:#59536D;
-    border-bottom: #59536D;
+    background-color: #443B63;
+    border-top:#443B63;
+    border-bottom: #443B63;
     border-color: white;
     color:white;
     display: flex;
@@ -42,26 +42,28 @@ html {
     width: 10vw;
 }
 
-.head .small{
+.small{
     cursor: pointer;
-    background-color: #59536D;
-    border-top:#59536D;
-    border-bottom: #59536D;
+    background-color: #443B63;
+    border-top:#443B63;
+    border-bottom: #443B63;
     border-color: white;
     color:white;
     display: flex;
     padding: 11px 1vw; 
     align-items: right;
-    font-size: 0.9em;
+    font-size: 1em;
     width: 10vw;
 }
 
 .click.hover-effect{
     color:rgb(255, 255, 132);
+    transition: color 0.4s ease-in-out; 
 }
 
 .small.hover-effect{
     color:rgb(255, 255, 132);
+    transition: color 0.4s ease-in-out; 
 }
 
 .body{
@@ -107,7 +109,7 @@ nav {
 
 
 .apply {
-    background-color: #7A72D4;   /* Default button color */
+    background-color: #7A6FF4;   /* Default button color */
     border-width: 3px;
     border-radius: 20px;
     display: flex;
@@ -137,7 +139,8 @@ nav {
 
 /* Hover effect for the button */
 .apply.hover-effect {
-    background-color: rgb(255, 255, 132) !important;  /* Hover background color */
+    background-color: rgb(255, 255, 132) !important;
+    transition: background-color 0.3s ease-in-out;  /* Hover background color */
 }
 
 .apply.hover-effect .extLink {
@@ -163,7 +166,7 @@ nav {
 }
 
 .foot{
-    background-color: #59536D; 
+    background-color: #443B63; 
     font-size: 1.2vw;
     color: white;
     padding: 10px 30px; 
@@ -176,7 +179,7 @@ nav {
 .ftimg{
     width: 2.5vw;
     display: flex;
-    background-color: #59536D;
+    background-color: #443B63;
     padding: 10px 3px;
     justify-content: space-between;
 }
