@@ -13,32 +13,6 @@ html {
   }
 
 .head {
-    .click{
-        cursor: pointer;
-        background-color: #59536D;
-        border-top:#59536D;
-        border-bottom: #59536D;
-        border-color: white;
-        color:white;
-        display: flex;
-        padding: 10px 1vw; 
-        align-items: right;
-        font-size: 1.1em;
-        width: 10vw;
-    }
-    .small{
-        cursor: pointer;
-        background-color: #59536D;
-        border-top:#59536D;
-        border-bottom: #59536D;
-        border-color: white;
-        color:white;
-        display: flex;
-        padding: 11px 1vw; 
-        align-items: right;
-        font-size: 0.9em;
-        width: 10vw;
-    }
     background-color: #59536D; 
     border-top-color: white;
     border-bottom-color: white;
@@ -52,6 +26,42 @@ html {
     width: 100%;
     top: 0;
     position: sticky;
+}
+
+.head .click{
+    cursor: pointer;
+    background-color: #59536D;
+    border-top:#59536D;
+    border-bottom: #59536D;
+    border-color: white;
+    color:white;
+    display: flex;
+    padding: 10px 1vw; 
+    align-items: right;
+    font-size: 1.1em;
+    width: 10vw;
+}
+
+.head .small{
+    cursor: pointer;
+    background-color: #59536D;
+    border-top:#59536D;
+    border-bottom: #59536D;
+    border-color: white;
+    color:white;
+    display: flex;
+    padding: 11px 1vw; 
+    align-items: right;
+    font-size: 0.9em;
+    width: 10vw;
+}
+
+.click.hover-effect{
+    color:rgb(255, 255, 132);
+}
+
+.small.hover-effect{
+    color:rgb(255, 255, 132);
 }
 
 .body{

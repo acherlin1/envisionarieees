@@ -1,6 +1,54 @@
 
 console.log("effects.js is loaded!");
 
+function headHover(){
+  console.log("headHover loaded!");
+  const buttons = document.querySelectorAll('.click');
+
+  if (buttons.length === 0) {
+    console.log("No elements with class 'click' found.");
+    return;
+  }
+
+  // Loop through each button and add event listeners
+  buttons.forEach(button => {
+    button.addEventListener('mouseover', function() {
+      console.log("Mouse over event on:", this);
+      this.classList.add("hover-effect"); // ✅ Add hover effect
+    });
+
+    button.addEventListener('mouseout', function() {
+      console.log("Mouse out event on:", this);
+      this.classList.remove("hover-effect"); // ✅ Remove hover effect
+    });
+  });
+}
+
+function headHover2(){
+  console.log("headHover loaded!");
+  const buttons = document.querySelectorAll('.small');
+
+  if (buttons.length === 0) {
+    console.log("No elements with class 'small' found.");
+    return;
+  }
+
+  // Loop through each button and add event listeners
+  buttons.forEach(button => {
+    button.addEventListener('mouseover', function() {
+      console.log("Mouse over event on:", this);
+      this.classList.add("hover-effect"); // ✅ Add hover effect
+    });
+
+    button.addEventListener('mouseout', function() {
+      console.log("Mouse out event on:", this);
+      this.classList.remove("hover-effect"); // ✅ Remove hover effect
+    });
+  });
+}
+
+
+
 function applyHover() {
   console.log("applyHover function is running!");
 
@@ -34,3 +82,5 @@ function applyHover() {
 
 // Run when DOM is fully loaded
 document.addEventListener("DOMContentLoaded", applyHover);
+document.addEventListener("DOMContentLoaded", headHover);
+document.addEventListener("DOMContentLoaded", headHover2);
