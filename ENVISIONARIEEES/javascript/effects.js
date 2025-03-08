@@ -1,6 +1,21 @@
 
 console.log("effects.js is loaded!");
 
+function imgHover(){
+  console.log("imgHover loaded!");
+  const img = document.getElementById('titleimg');
+
+  img.addEventListener('mouseover', function(){
+    console.log("Mouse over event on: ", this);
+    this.src = "images/TitleAlt.png";
+  });
+
+  img.addEventListener('mouseout', function(){
+    console.log("Mouse out event on:", this);
+    this.src = "images/TitleMain.png";
+  });
+}
+
 function headHover(){
   console.log("headHover loaded!");
   const buttons = document.querySelectorAll('.click');
@@ -47,8 +62,6 @@ function headHover2(){
   });
 }
 
-
-
 function applyHover() {
   console.log("applyHover function is running!");
 
@@ -81,6 +94,7 @@ function applyHover() {
 }
 
 // Run when DOM is fully loaded
+document.addEventListener("DOMContentLoaded", imgHover);
 document.addEventListener("DOMContentLoaded", applyHover);
 document.addEventListener("DOMContentLoaded", headHover);
 document.addEventListener("DOMContentLoaded", headHover2);
