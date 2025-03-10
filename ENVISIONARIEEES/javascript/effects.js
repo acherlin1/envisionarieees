@@ -1,7 +1,8 @@
 
 console.log("effects.js is loaded!");
 
-function imgHover(){
+/* 
+  function imgHover(){
   console.log("imgHover loaded!");
   const img = document.getElementById('titleimg');
 
@@ -15,6 +16,7 @@ function imgHover(){
     this.src = "images/TitleMain.png";
   });
 }
+  */
 
 function headHover(){
   console.log("headHover loaded!");
@@ -94,7 +96,7 @@ function applyHover() {
 }
 
 // Run when DOM is fully loaded
-document.addEventListener("DOMContentLoaded", imgHover);
+//document.addEventListener("DOMContentLoaded", imgHover);
 document.addEventListener("DOMContentLoaded", applyHover);
 document.addEventListener("DOMContentLoaded", headHover);
 document.addEventListener("DOMContentLoaded", headHover2);
